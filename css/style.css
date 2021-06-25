@@ -631,11 +631,11 @@ input {
 
 
 .callback-bt {
-    background:#38a3fd;
+    background:#38fd9a;
     opacity: .8;
-    border:2px solid rgb(103, 103, 167);
+    border:2px solid rgba(84, 224, 108, 0.2);
     border-radius:50%;
-    box-shadow:0 8px 10px rgba(56,163,253,0.3);
+    box-shadow:0 8px 10px rgba(56, 253, 177, 0.3);
     cursor:pointer;
     height:68px;
     text-align:center;
@@ -659,7 +659,7 @@ input {
 
 .callback-bt .text-call span {
     text-align: center;
-    color:#38a3fd;
+    color:#63ee6e;
     opacity: 0,5;
     font-size: 0;
     position:absolute;
@@ -677,9 +677,12 @@ input {
     font-size: 11px;
 }
 .callback-bt:hover i {
-    display:none;
-}
+    color:#00E733
 
+}
+.whats{
+    color:#00E733
+}
 .callback-bt:hover {
     z-index:1;
     background:#fff;
@@ -687,7 +690,7 @@ input {
     transition:.3s;
 }
 .callback-bt:hover i {
-    color:#38a3fd;
+    color:#22e77b;
     font-size:40px;
     transition:.3s;
 }
@@ -706,29 +709,29 @@ input {
 }
 @-webkit-keyframes hoverWave {
     0% {
-    box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 0 rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+    box-shadow:0 8px 10px rgba(56, 253, 177, 0.3),0 0 0 0 rgba(84, 224, 108, 0.2),0 0 0 0 rgba(84, 224, 108, 0.2)
 }
 40% {
-    box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 15px rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+    box-shadow:0 8px 10px rgba(56, 253, 177, 0.3),0 0 0 15px rgba(84, 224, 108, 0.2),0 0 0 0 rgba(84, 224, 108, 0.2)
 }
 80% {
-    box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 26.7px rgba(56,163,253,0.067)
+    box-shadow:0 8px 10px rgba(56, 253, 177, 0.3),0 0 0 30px rgba(84, 224, 108, 0.2),0 0 0 26.7px rgba(84, 224, 108, 0.2)
 }
 100% {
-    box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 40px rgba(56,163,253,0.0)
+    box-shadow:0 8px 10px rgba(56, 253, 177, 0.3),0 0 0 30px rgba(84, 224, 108, 0.2),0 0 0 40px rgba(84, 224, 108, 0.2)
 }
 }@keyframes hoverWave {
     0% {
-    box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 0 rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+    box-shadow:0 8px 10px rgba(56, 253, 177, 0.3),0 0 0 0 rgba(84, 224, 108, 0.2),0 0 0 0 rgba(84, 224, 108, 0.2)
 }
 40% {
-    box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 15px rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+    box-shadow:0 8px 10px rgba(56, 253, 177, 0.3),0 0 0 15px rgba(84, 224, 108, 0.2),0 0 0 0 rgba(84, 224, 108, 0.2)
 }
 80% {
-    box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 26.7px rgba(56,163,253,0.067)
+    box-shadow:0 8px 10px rgba(56, 253, 177, 0.3),0 0 0 30px rgba(84, 224, 108, 0.2),0 0 0 26.7px rgba(84, 224, 108, 0.2)
 }
 100% {
-    box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 40px rgba(56,163,253,0.0)
+    box-shadow:0 8px 10px rgba(56, 253, 177, 0.3),0 0 0 30px rgba(84, 224, 108, 0.2),0 0 0 40px rgba(84, 224, 108, 0.2)
 }
 }
 @keyframes shake {
